@@ -1,3 +1,4 @@
+ <?php include "conexao.php"; ?>
 <html lang="pt-br">
     <head>
         <title>Cadastro - PHP7</title>
@@ -11,13 +12,10 @@
         </div>
         <form method="POST" action="tratamento.php">
             <input type="text" name="nome" id="nome" placeholder="  Nome"/> <br><br>
-            <input type="date" name="dtNascimento" id="dtNascimento" /> <br><br>
+            <input type="date" name="dtNascimento" id="dtNascimento" maxLenght="8" /> <br><br>
             <input type="email" name="email" id="email" placeholder="  nome@mail.com" /> <br><br>
             <input type="password" name="senha" id="senha" placeholder="  Digite sua senha" /> <br><br>
             <input type="submit" name="send" id="botao" />
         </form>
-        <?php
-            include "conexao.php";
-        ?>
     </body>
 </html>

@@ -10,7 +10,7 @@ CREATE TABLE usuario(
     PRIMARY KEY(id)
 );
 
-SELECT * FROM usuario;
+SELECT * FROM usuario;	
 
 TRUNCATE TABLE usuario;
 
