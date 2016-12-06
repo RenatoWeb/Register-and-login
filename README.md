@@ -1,2 +1,2 @@
-# Registration-system
+# Register and login
 PHP
