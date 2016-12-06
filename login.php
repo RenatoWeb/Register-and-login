@@ -7,7 +7,7 @@
     </head>
     <body class="thrid">
         <h1>Login</h1>
-        <form method="post" action="autenthication.php">
+        <form method="post" action="authentication.php">
             <input type="email" name="login" id="login" placeholder=" E-mail" /> <br><br>
             <input type="password" name="senha" id="senha" placeholder="Senha" /> <br><br>
             <input type="submit" name="logar" id="logar" value="Entrar" />
