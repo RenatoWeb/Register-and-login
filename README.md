@@ -1,2 +1,3 @@
 # Register and login
-PHP
+
+Sistema de cadastro e login com PHP7 utilizando a classe PDO
